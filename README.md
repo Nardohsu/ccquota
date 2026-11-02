@@ -215,6 +215,15 @@ Codex installed, nothing about Codex appears.
 
 The approach follows [codex-usage-companion](https://github.com/gkfriend/codex-usage-companion) (MIT); no code is taken from it.
 
+### A band for the Codex desktop app
+
+The Codex desktop app has no mod system, so [`codex-overlay/`](codex-overlay/) is a small
+always-on-top window (Windows, tkinter) that follows the Codex window and sits just above its
+prompt. It shows Codex only: the 5-hour and weekly limits with their reset countdowns, and
+today's Codex tokens from `~/.codex/sessions`. Double-click `codex-overlay/Start.bat`; drag it
+to move it, right-click for options, `Esc` to quit. It reuses `ccquota.py` from the folder
+above, and does not change Claude Code or Codex in any way.
+
 ## Checking it works
 
 ```bash

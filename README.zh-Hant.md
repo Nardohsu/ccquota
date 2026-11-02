@@ -198,6 +198,13 @@ ccquota 也會顯示 Codex（OpenAI）的 5 小時與每週額度，出現在 mo
 
 做法參考 [codex-usage-companion](https://github.com/gkfriend/codex-usage-companion)（MIT），沒有使用它的程式碼。
 
+### Codex 桌面版的橫條
+
+Codex 桌面版沒有 mod 機制，所以 [`codex-overlay/`](codex-overlay/) 是一個置頂的小視窗（Windows、tkinter），
+會跟著 Codex 視窗，停在輸入框上方。它只顯示 Codex：5 小時與每週額度和重置倒數，以及從
+`~/.codex/sessions` 算出的今日 Codex Token。雙擊 `codex-overlay/Start.bat` 啟動；拖曳可移動，
+右鍵有選項，`Esc` 結束。它沿用上一層的 `ccquota.py`，不會更動 Claude Code 或 Codex 的任何設定。
+
 ## 確認能正常運作
 
 ```bash

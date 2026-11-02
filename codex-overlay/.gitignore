@@ -1,0 +1,4 @@
+__pycache__/
+settings.json
+smoke-result.json
+*.log
