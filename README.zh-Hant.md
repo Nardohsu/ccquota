@@ -2,6 +2,8 @@
 
 [English](README.md) · **繁體中文**
 
+開發心得與介紹文：[ccquota 是怎麼做出來的](docs/intro.zh-Hant.md)
+
 [Claude Code](https://claude.com/claude-code) 的本機用量儀表板，也能看 Codex。它告訴你 5 小時
 和每週額度還剩多少、什麼時候重置、今天用了多少 token，以及實際有幾個 Claude Code 在跑。
 所有數字都來自 Claude Code 本來就寫在你電腦上的檔案。只用 Python 標準函式庫，不用編譯，
