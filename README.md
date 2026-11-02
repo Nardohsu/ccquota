@@ -2,6 +2,8 @@
 
 **English** · [繁體中文](README.zh-Hant.md)
 
+The story behind it: [How ccquota was built](docs/intro.md)
+
 A local usage dashboard for [Claude Code](https://claude.com/claude-code), and for Codex
 too. It shows how much of your 5-hour and weekly quota is left and when each resets, how
 many tokens today has used, and how many Claude Code sessions are actually running.

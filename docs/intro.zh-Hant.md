@@ -1,6 +1,6 @@
 # ccquota：Claude Code + Codex 額度監控
 
-[← 回 README](../README.zh-Hant.md)
+[← 回 README](../README.zh-Hant.md) · [English](intro.md)
 
 分享一個我自己用 Claude 做的小工具 **ccquota**。
 
